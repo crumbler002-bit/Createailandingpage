@@ -1,6 +1,6 @@
-import { motion } from "motion/react";
-import { useState } from "react";
-import { useParams, useNavigate } from "react-router";
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { useParams, useNavigate } from "react-router-dom";
 import { Check, Calendar, Clock, Users, CreditCard, Mail, Phone, User } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Card } from "../components/ui/card";
